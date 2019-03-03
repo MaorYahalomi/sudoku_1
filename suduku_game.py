@@ -909,9 +909,9 @@ def solution_logic(board):
         loop = 1
         num_with_one_option = 1
         # Running with while loop to check number validity in Box ( if there is only one option for number in box)
-        guz = 0
+        check_status = 0
 
-        while checking_one_number and guz == 0:
+        while checking_one_number and check_status == 0:
             checking_one_number = find_cell_place_by_number(board)
 
         checking_one_number = 1
