@@ -1157,7 +1157,7 @@ def main():
     start_time = time.time()
     solution_logic(sudko_board)
     Total = time.time() - start_time
-
+    print "shalom"
     print "\n"+"The solution for sudoku is :"+"\n"
     #number_matrix_print(sudko_board)
     sudo_style_print(sudko_board)
